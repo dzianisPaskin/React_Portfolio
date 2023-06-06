@@ -5,11 +5,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'deep-blue': '#010026',
         blue: '#2CBCE9',
         red: '#DC4492',
         yellow: '#FDCC49',
         grey: '#ededed',
+        'deep-blue': '#010026',
         'dark-grey': '#757575',
         'opaque-black': 'rgba(0,0,0,0.35)',
       },
@@ -26,9 +26,6 @@ module.exports = {
       },
       content: {
         brush: "url('./assets/brush.png')",
-        person1: "url('./assets/person-1.png')",
-        person2: "url('./assets/person-2.png')",
-        person3: "url('./assets/person-3.png')",
       },
     },
     screens: {
